@@ -1,17 +1,29 @@
 {
-  "name": "forge-mod-auto-translate",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/inquirer": "^7.3.3",
-    "ts-node": "^10.2.0",
-    "typescript": "^4.3.5"
-  },
-  "scripts": {
-    "start": "ts-node src"
-  },
-  "dependencies": {
-    "inquirer": "^8.1.2"
-  }
+    "name": "forge-mod-auto-translate",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/cli-progress": "^3.9.2",
+        "@types/inquirer": "^7.3.3",
+        "@types/lodash": "^4.14.172",
+        "@types/node": "^16.4.13",
+        "@types/unzipper": "^0.10.4",
+        "prettier": "^2.3.2",
+        "ts-node": "^10.2.0",
+        "typescript": "^4.3.5"
+    },
+    "scripts": {
+        "start": "ts-node src"
+    },
+    "dependencies": {
+        "@vitalets/google-translate-api": "^7.0.0",
+        "axios": "^0.21.1",
+        "cli-progress": "^3.9.0",
+        "dotenv": "^10.0.0",
+        "inquirer": "^8.1.2",
+        "jszip": "^3.7.1",
+        "lodash": "^4.17.21",
+        "unzipper": "^0.10.11"
+    }
 }
